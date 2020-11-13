@@ -1,0 +1,102 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-07-23 14:21:57
+ * @LastEditTime: 2020-07-23 16:32:38
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \暑期前端培训\1. HTML+CSS 入门到提高\CSS3入门及提高 03\exam.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .big {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        background-color: pink;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        float: right;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        box-sizing: border-box;
+        display: block;
+        text-decoration: none;
+        padding: 0 19px;
+      }
+
+      .space {
+          width: 1px;
+          height: 10px;
+          background-color: #eee;
+          margin-top: 18px;
+      }
+
+      .b {
+          position: relative;
+          width: 500px;
+          height: 500px;
+          background-color: pink;
+          border-top: 1px solid transparent;
+      }
+/* 
+      .b img {
+          position: absolute;
+          top: 50%;
+          right: 50%;          
+          width: 100px;
+          height: 100px;
+          background-color: skyblue;
+          transform: translate(50%,-50%);
+      } */
+
+      img {
+          display: block;
+          width: 300px;
+          height: 300px;
+          margin: 30px auto;
+      }
+      .a a {
+          width: 50px;
+          height: 20px;
+          background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big">
+      <ul>
+        <li><a href="#">1</a></li>
+        <li class="space"></li>
+        <li><a href="#">2</a></li>
+        <li class="space"></li>
+        <li><a href="#">3</a></li>
+        <li class="space"></li>
+        <li><a href="#">4</a></li>
+      </ul>
+    </div>
+
+    <div class="b">
+           <img src="./images/sun.jpg" alt="">
+    </div>
+  </body>
+</html>
